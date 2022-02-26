@@ -1,0 +1,866 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The restauration [sic]. Or, A poem on the return of the most mighty and ever glorious Prince, Charles the II. to his kingdoms. By Arthur Brett of Christs-Church Oxon.</title>
+            <author>Brett, Arthur, d. 1677?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 14 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77337</idno>
+            <idno type="STC">Wing B4397</idno>
+            <idno type="STC">Thomason E1027_7</idno>
+            <idno type="STC">ESTC R208846</idno>
+            <idno type="EEBO-CITATION">99867767</idno>
+            <idno type="PROQUEST">99867767</idno>
+            <idno type="VID">120091</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77337)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 120091)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 152:E1027[7])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The restauration [sic]. Or, A poem on the return of the most mighty and ever glorious Prince, Charles the II. to his kingdoms. By Arthur Brett of Christs-Church Oxon.</title>
+                  <author>Brett, Arthur, d. 1677?</author>
+               </titleStmt>
+               <extent>[2], 25, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by J.H. for Samuel Thomson at the Bishops-head in St. Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Annotation on Thomason copy: "June 5".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  II, --  King of England, 1630-1685 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-04</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:120091:1"/>
+            <pb facs="tcp:120091:1" rendition="simple:additions"/>
+            <p>The Reſtauration. OR, A POEM on the Return of the MOST MIGHTY and ever Glorious PRINCE, CHARLES the II. TO HIS Kingdoms.</p>
+            <p>By <hi>ARTHUR BRETT</hi> of Chriſts-Church <hi>Oxon.</hi>
+            </p>
+            <q>—<hi>Deum Delphóſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> meos.</hi>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>J. H.</hi> for <hi>Samuel Thomſon</hi> at the Bi<g ref="char:EOLhyphen"/>ſhops-head in St. <hi>Pauls</hi> Church-yard. 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:120091:2"/>
+            <pb n="1" facs="tcp:120091:2"/>
+            <head>
+               <hi>The Restauration.</hi> OR, A POEM on the Return of the Moſt Mighty and ever Glorious Prince, CHARLES the II. to his Kingdoms.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">H</seg>Ow ſhall I thy entrance ſing?</l>
+               <l>Lord of Hearts, of Nations King,</l>
+               <l>Or thy Reſtauration bear?</l>
+               <l>Of Royal Father Royal Heir.</l>
+               <l>When I conſider thy Return,</l>
+               <l>What Flames within my Breaſt do burn?</l>
+               <l>I know not how to vent my joy,</l>
+               <l>How to begin <hi>Vive le Roy,</hi>
+               </l>
+               <pb n="2" facs="tcp:120091:3"/>
+               <l>Or enter upon my great Song,</l>
+               <l>The King has been away ſo long.</l>
+               <l>Thus after a dark diſmal night,</l>
+               <l>We can't ſuſtain Meridian-light;</l>
+               <l>The Dawn muſt gently intervene,</l>
+               <l>Leſt <hi>Phoebus</hi> kill as ſoon as ſeen:</l>
+               <l>So Sorrow by degrees muſt waſt,</l>
+               <l>Joy ſtifles, coming on too faſt.</l>
+               <l>Shall I be ſilent then, and ſit</l>
+               <l>And only hear other mens Wit?</l>
+               <l>No, I'le call my Thoughts together,</l>
+               <l>Summon all my Forces hither,</l>
+               <l>Rather than fail at ſuch a time,</l>
+               <l>My Soul ſhall go into a Rime:</l>
+               <l>Who on ſo rich a Subject try,</l>
+               <l>Their as rich Vein of Poetry,</l>
+               <l>Though never ſo much care they take,</l>
+               <l>Falſe-Latine-Heraldry will make;</l>
+               <l>Having no Gold on Gold to ſpread,</l>
+               <l>I ſhall not break <hi>Clarencieux</hi> Head:</l>
+               <l>While others ſerve the King in State,</l>
+               <l>And bring Red Wine in Yellow Plate;</l>
+               <l>I'le like that Honeſt <hi>Aſian,</hi>
+               </l>
+               <l>Preſent him Water in a Canne.</l>
+               <l>I will ſay ſomthing wrong or right,</l>
+               <l>Caſt in my ſhare, though but a Mite;</l>
+               <pb n="3" facs="tcp:120091:3"/>
+               <l>But as a Drop unto that Sea</l>
+               <l>Which now ſuſtains his Majeſty:</l>
+               <l>Thoſe Craggy Mountains which ſurround</l>
+               <l>Our Pleaſant, Fertile, <hi>Engliſh</hi> Ground</l>
+               <l>(A Finer Mantles Courſer Border)</l>
+               <l>That ſtand to keep the Sea in order,</l>
+               <l>And now ſtretch out, ſtretch out their head</l>
+               <l>To catch their Soveraign's firſt Tread;</l>
+               <l>Thoſe Cliffes <hi>Parnaſſus</hi> are to me,</l>
+               <l>Salt-water <hi>Hypocrene</hi> ſhall be.</l>
+            </lg>
+            <lg>
+               <l>Oh for the ſilver Quill of <hi>Quarles</hi>
+               </l>
+               <l>To celebrate our Gracious <hi>CHARLES!</hi>
+               </l>
+               <l>Oh for a Holy <hi>David's</hi> Lyre,</l>
+               <l>And new <hi>Te-Deum's</hi> in the Quire!</l>
+               <l>Oh for a Strain aſcending quite</l>
+               <l>'Bove <hi>Denham, Cowley,</hi> or <hi>the Knight!</hi>
+               </l>
+               <l>Oh for Muſes Ninety Nine!</l>
+               <l>Oh for a Fancy as Divine</l>
+               <l>As <hi>Virgils,</hi> and as ſmooth and fit</l>
+               <l>As <hi>Ovids,</hi> when of Love he writ!</l>
+               <l>The Story I muſt now rehearſe,</l>
+               <l>Deſerves a more than common Verſe;</l>
+               <l>
+                  <hi>
+                     <g ref="char:V">Ʋ</g>xbridge,</hi> and the Iſle of <hi>Wight</hi>
+               </l>
+               <l>Could not ſettle all things right,</l>
+               <l>But <hi>Breda</hi> hath that Buſineſs done,</l>
+               <l>Perfecting what they but begun:</l>
+               <pb n="4" facs="tcp:120091:4"/>
+               <l>Strange News! a King and Kingdoms Three,</l>
+               <l>Send each their Letters and agree;</l>
+               <l>When heaven propitious appeares,</l>
+               <l>A Day do's more than month's or years;</l>
+               <l>
+                  <hi>Breda,</hi> that to her Tackling ſtuck,</l>
+               <l>She got a Name from being took;</l>
+               <l>But let's forget thoſe warlick Feats,</l>
+               <l>Thoſe Stratagems, thoſe lawful Cheats;</l>
+               <l>Let thoſe brave deeds of <hi>Dutch</hi> and <hi>Spaniſh,</hi>
+               </l>
+               <l>
+                  <hi>French</hi> and Heroick <hi>Engliſh</hi> vaniſh;</l>
+               <l>Let <hi>Spinola's</hi> memorial ceaſe;</l>
+               <l>She's now more famous for a Peace:</l>
+            </lg>
+            <lg>
+               <l>Our Siſter Nation juſtly may</l>
+               <l>Her ancient Thiſtle throw away,</l>
+               <l>Thoſe Armes became her exil'd Prince,</l>
+               <l>His Fortunes now are bloſſom'd ſince;</l>
+               <l>He hath (if that can be) his due,</l>
+               <l>Is King of <hi>Scots</hi> and <hi>Scotland</hi> too:</l>
+            </lg>
+            <lg>
+               <l>For this he ſcap't ſuch ſnares, ſuch plots,</l>
+               <l>Such ſickneſſes, ſuch wounds, ſuch ſhots,</l>
+               <l>As Chance on the Kings Son may bring</l>
+               <l>In a hot war againſt the King;</l>
+               <l>For this he often cros't the Sea</l>
+               <l>Safer than others do the <hi>Dee,</hi>
+               </l>
+               <l>And on the main was reverenc't more</l>
+               <l>Than he was like to be a ſhore,</l>
+               <pb n="5" facs="tcp:120091:4"/>
+               <l>The Loyal waves did quiet ſtand,</l>
+               <l>There were too many Storms at land;</l>
+               <l>For this at W— fatal fight</l>
+               <l>Was wrought that Miracle his flight,</l>
+               <l>When that rich ſoile was o're and o're</l>
+               <l>Water'd with <hi>Engliſh-Scottiſh</hi> Gore,</l>
+               <l>That he muſt periſh in the Woods,</l>
+               <l>Or fly o're troops, or ſwim through bloods.</l>
+               <l>It was for this, 'twas Heaven's intent</l>
+               <l>That he ſhould meet this Parliament,</l>
+               <l>And ſo from nothing All commence,</l>
+               <l>And ſhew the world ther's Providence:</l>
+               <l>When Nature bid him firſt to be</l>
+               <l>So ſweet, ſo full of Majeſty,</l>
+               <l>That he did no Perfection lack</l>
+               <l>She put him in a comely black,</l>
+               <l>A comely, but a mournful Hue,</l>
+               <l>She had good reaſon ſo to do,</l>
+               <l>Preſaging that her Brittiſh Sons</l>
+               <l>Would prove unruly, boiſterous ones,</l>
+               <l>Would into ſtrange confuſion run,</l>
+               <l>Murder the Sire, baniſh the Son;</l>
+               <l>But Comedy's now on the Stage,</l>
+               <l>And Tragedy has ceas't to rage;</l>
+               <l>We're paſt the black part of the Scene,</l>
+               <l>And what remains will be ſerene:</l>
+               <pb n="6" facs="tcp:120091:5"/>
+               <l>Great <hi>CHARLES</hi> unto large Empire born,</l>
+               <l>Has had his Crown made all of Thorn;</l>
+               <l>Now hee'l have one of better Stuffe,</l>
+               <l>If <hi>Lumbard-ſtreet</hi> have Gold enough;</l>
+               <l>His Winter's gone, he has now his Spring,</l>
+               <l>The Honey after ſo much ſting;</l>
+               <l>In Patience's and Vertue's Field</l>
+               <l>Has conquer'd Fate, and it doth yield:</l>
+               <l>That blazing Comet's direful beard,</l>
+               <l>Which made us at his birth afear'd,</l>
+               <l>Though it were long it had an end,</l>
+               <l>Could not eternal harms portend;</l>
+               <l>Now <hi>CHARLES</hi> the Martyr, <hi>CHARLES</hi> the Firſt,</l>
+               <l>Whoſe Murder hath the Nation curſt,</l>
+               <l>
+                  <hi>CHARLES</hi> of Bleſſed Memory,</l>
+               <l>Who liv'd a Pris'ner, died free,</l>
+               <l>Triumphant <hi>CHARLES</hi> looks from on high,</l>
+               <l>And ſees his Blood has ceaſ't to cry;</l>
+               <l>Sees his own Propheſie fulfil'd,</l>
+               <l>That <hi>Engliſh</hi> hearts at laſt ſhould yield,</l>
+               <l>That the remembrance of their Guilt</l>
+               <l>And of his Blood which they had ſpilt</l>
+               <l>Should melt their flints (for bloud is known</l>
+               <l>To mollifie the hardeſt ſtone:)</l>
+               <l>That they ſhould their errour ſee,</l>
+               <l>And that his Royal Progeny</l>
+               <pb n="7" facs="tcp:120091:5"/>
+               <l>(Which has been Fortunes quilted Ball)</l>
+               <l>Should mount the higher by its Fall;</l>
+               <l>His Son ſhould with more Glory riſe,</l>
+               <l>Becauſe he on a Scaffold dies;</l>
+               <l>So we behold (if Nature may</l>
+               <l>Allude to State) the following day</l>
+               <l>Its Raies with greater Luſtre ſpread</l>
+               <l>When as the former ſets in Red:</l>
+            </lg>
+            <lg>
+               <l>Now Circulation of blood</l>
+               <l>In a new ſenſe will be made good;</l>
+               <l>The Head was made with ſhame to bleed,</l>
+               <l>Now let the Legs and Feet take heed;</l>
+               <l>Gods own Anointed is at hand</l>
+               <l>To judge the Sinners of the Land,</l>
+               <l>To curb thoſe overdaring ſoules,</l>
+               <l>And uſe his words whoſe place he holds,</l>
+               <l>
+                  <hi>They that have oppoſ'd my Reign</hi>
+               </l>
+               <l>
+                  <hi>Let 'um be brought out and ſlain;</hi>
+               </l>
+               <l>Shall he not be their King? hee'l riſe,</l>
+               <l>And be their Prieſt, and ſacrifice</l>
+               <l>Thoſe Buls unto his Fathers ſhade,</l>
+               <l>Which o're our necks ſuch rule have had;</l>
+               <l>Oh no! I dream, Oh! I miſtake,</l>
+               <l>He comes to build, not down to break;</l>
+               <l>Hee's merciful, he lov's to ſave;</l>
+               <l>How could he elſe all Vertues have?</l>
+               <pb n="8" facs="tcp:120091:6"/>
+               <l>The Royal Eagle will not prey;</l>
+               <l>He loſes Subjects if he ſlay;</l>
+               <l>Dove-like he knows not how to kill,</l>
+               <l>But comes with Olive in his Bill:</l>
+               <l>Memory is an Art, but yet</l>
+               <l>There is a greater to forget;</l>
+               <l>He can forget his Fathers fall,</l>
+               <l>How they took Crown and Life and all;</l>
+               <l>How our late Sun his ſplendor loſt,</l>
+               <l>And ſat where he had ſhined moſt;</l>
+               <l>How he of men and Kings the beſt,</l>
+               <l>Had his Eaſt turned to his Weſt;</l>
+               <l>'Tis his endeavour, 'tis his care,</l>
+               <l>Well to do, with ill to bear;</l>
+               <l>What has been done is gone and paſt,</l>
+               <l>And hee'l make up what <hi>Noll</hi> laid waſt;</l>
+               <l>How he will with his people deal</l>
+               <l>He gives both under hand and ſeal,</l>
+               <l>When to the Parliament he ſends,</l>
+               <l>Sweetly begins, and ſweetly ends;</l>
+               <l>Never ſuch words, I dare avow,</l>
+               <l>Were written in Court hand till now;</l>
+               <l>Hee'l be, hee'l be <hi>The Faiths Defender,</hi>
+               </l>
+               <l>Yet ſuch whoſe Conſciences are tender,</l>
+               <l>Such as unſatisfied are,</l>
+               <l>As far as may a King, hee'l ſpare;</l>
+               <pb n="9" facs="tcp:120091:6"/>
+               <l>(That clauſe it will end all our ſtrife,</l>
+               <l>That Line, it is a Line of Life;)</l>
+               <l>Not like baſe Tyrants, who diſgrace</l>
+               <l>Royalty of the Royal race;</l>
+               <l>That keep mens bodies free and ſafe,</l>
+               <l>But they'<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e oppreſs their nobler half;</l>
+               <l>This is to ſave the Caſe from hurt,</l>
+               <l>And leave the Jewel in the Dirt;</l>
+               <l>Our Sovereign's of another mind,</l>
+               <l>Is even to Diſſenters kind.</l>
+               <l>He who in the world has been,</l>
+               <l>Who in his baniſhment has ſeen</l>
+               <l>Such Variety abroad,</l>
+               <l>So many a way, ſo many a Mode,</l>
+               <l>Find's 'tis impoſſible that we</l>
+               <l>Should here in all things all agree;</l>
+               <l>Unity men in vain deſign,</l>
+               <l>It is an Attribute Divine;</l>
+               <l>Bodies arn't made of the ſame clay,</l>
+               <l>Nor Souls of th' ſame celeſtial Ray,</l>
+               <l>What you may hate, I may think good,</l>
+               <l>As this mans poyſon's that mans food;</l>
+               <l>The Church in this fine Sun-ſhine day</l>
+               <l>Will give her Children leave to Play,</l>
+               <l>So as it be not with edg'd tools,</l>
+               <l>And they not prove mad-men or fools:</l>
+               <pb n="10" facs="tcp:120091:7"/>
+               <l>While thoſe who urge with too much heat</l>
+               <l>On others that which they think meet,</l>
+               <l>Their beam of truth muſt be the day,</l>
+               <l>And we muſt needs ſay as they ſay,</l>
+               <l>Do as they do, gueſs as they gueſs,</l>
+               <l>Thoſe that will force our Conſciences,</l>
+               <l>Seem not to know what Conſcience is,</l>
+               <l>And of their Sovereign's temper miſs:</l>
+               <l>But to be clement, to be mild,</l>
+               <l>That he has had up from a child;</l>
+               <l>And while infuſed gifts we ſcan,</l>
+               <l>We praiſe the Maker not the man;</l>
+               <l>As for's acquired ones, for thoſe</l>
+               <l>Which only to himſelf he ow's,</l>
+               <l>Would you them know? perhaps you would,</l>
+               <l>And I would tell you if I could;</l>
+               <l>If I could paint a noble ſoul</l>
+               <l>As <hi>Xeuxis</hi> did his Laſs of old,</l>
+               <l>Borrow a curious fancy hence,</l>
+               <l>Hence a ſtyle, a judgment thence,</l>
+               <l>Somthing of <hi>CHARLES</hi> then you ſhould know</l>
+               <l>Which now lies hid, and will do ſo</l>
+               <l>Till he ſalute the Loyal rout,</l>
+               <l>And let it at his mouth run out:</l>
+               <l>Into affliction he was hurl'd</l>
+               <l>The great Free-ſchool of all the world,</l>
+               <pb n="11" facs="tcp:120091:7"/>
+               <l>And yet (which ſeemeth ſtrange and odd)</l>
+               <l>Hath thrived under too much rod,</l>
+               <l>For Loſſes, Croſſes, Baniſhment,</l>
+               <l>Never were for Thalia's meant;</l>
+               <l>He has heard with's ears, ſeen with's eyes</l>
+               <l>Enough to make him richly wiſe;</l>
+               <l>H'as that Experience attain'd</l>
+               <l>Which by ſtudy can't be gain'd,</l>
+               <l>That which others learn by ſcraps,</l>
+               <l>Or read in books, or ſee in maps;</l>
+               <l>In times of war he dares to fight,</l>
+               <l>And in times of peace can write;</l>
+               <l>He to <hi>Minerva</hi> is ſo dear,</l>
+               <l>She has lent him both her Book &amp; Spear;</l>
+               <l>Such is our Prince who doth return</l>
+               <l>The Phoenix of the Royal Urne:</l>
+            </lg>
+            <lg>
+               <l>With him returnes that beauteous Dame</l>
+               <l>We <hi>Eccleſia Anglicana</hi> name,</l>
+               <l>The <hi>Hierarchy</hi> is getting ground</l>
+               <l>(Its Platonick year's come round)</l>
+               <l>Or, if that that ſhould be withſtood,</l>
+               <l>Somthing that's better or as good;</l>
+               <l>
+                  <hi>David,</hi> if holy writ we mark,</l>
+               <l>Still brings back with him the Arke;</l>
+               <l>Miters attend the Diadem,</l>
+               <l>Half moons! 'tis that enlightens them;</l>
+               <pb n="12" facs="tcp:120091:8"/>
+               <l>Scepters and Croſiers joyn hand,</l>
+               <l>Together fall, together ſtand;</l>
+               <l>
+                  <hi>Oh Holy, Bleſsed Trinity</hi>
+               </l>
+               <l>Will now no more be Hereſie,</l>
+               <l>Nor Letany an impious thing</l>
+               <l>Although we pray in't for the King:</l>
+            </lg>
+            <lg>
+               <l>But <hi>Hammond,</hi> whither thou ſo faſt?</l>
+               <l>Why this unſeaſonable haſt?</l>
+               <l>Have the <hi>true Iſraelites indeed</hi>
+               </l>
+               <l>Now they are ſetled no more need</l>
+               <l>For time to come, H. H. D. D.</l>
+               <l>Their fiery pillar-guide to ſee?</l>
+               <l>Could'ſt thou not ſtay one Fortnight more</l>
+               <l>And ſee us rightly God adore,</l>
+               <l>Till thou enthroned <hi>CHARLES</hi> hadſt ſaw'n,</l>
+               <l>And grac't the Ermine with thy Lawn?</l>
+               <l>Muſt <hi>Moſes</hi> now be layed by,</l>
+               <l>And juſt on <hi>Canaans</hi> Borders die?</l>
+               <l>Well, go and be the Meſſenger,</l>
+               <l>The tidings to the ſhades to bear,</l>
+               <l>Your News forget not as you make</l>
+               <l>Your paſſage through the Lethe Lake;</l>
+               <l>Since angry Fate will have you go,</l>
+               <l>Go (Reverend Sir) and tell below</l>
+               <l>(Which for to tell who'd not expire?)</l>
+               <l>The Royaliſts have their Deſire;</l>
+               <pb n="13" facs="tcp:120091:8"/>
+               <l>The Royaliſts, not Cavaliers,</l>
+               <l>That word, that thing may breed new feares;</l>
+               <l>Tell him who ſo long dominee'd</l>
+               <l>And Trophies of our Slavery reer'd,</l>
+               <l>(If he hath got to th' bleſſed Coaſt,</l>
+               <l>And not his way t' <hi>Elyſium</hi> loſt,)</l>
+               <l>Tell him a <hi>CHARLES</hi> is up again,</l>
+               <l>And <hi>Cromwel's</hi> ordinary men;</l>
+               <l>Tell the brave <hi>Engliſh</hi> ſouls beneath,</l>
+               <l>The Sword is faſt up in the ſheath,</l>
+               <l>That all things are as quiet here,</l>
+               <l>As they can poſſibly be there,</l>
+               <l>That we did this for little gain,</l>
+               <l>There were no hundred thouſands ſlain,</l>
+               <l>No, it was at an eaſier rate,</l>
+               <l>They'd no new gueſts ſent 'um of late:</l>
+            </lg>
+            <lg>
+               <l>And you who teach our outward ears,</l>
+               <l>And glitter in your leſſer ſphears;</l>
+               <l>Let your light farther be extended,</l>
+               <l>Stars ſhine the more when <hi>Sol</hi>'s deſcended;</l>
+               <l>When you've diſplanted all Deluders,</l>
+               <l>All <hi>Levitical</hi> Intruders,</l>
+               <l>All ſapleſs trees, all withered rinds,</l>
+               <l>Without Divinity Divines,</l>
+               <l>When you the Angels of the flocks</l>
+               <l>Are grafted in your proper ſtocks,</l>
+               <pb n="14" facs="tcp:120091:9"/>
+               <l>The Candles in the Candleſticks,</l>
+               <l>Do not earth with heaven mix,</l>
+               <l>Don't too much worldly luſtre get,</l>
+               <l>For fear of other ſnuffers yet;</l>
+               <l>There was got in your torch a thief,</l>
+               <l>But a traveller brought relief,</l>
+               <l>Came from <hi>Cole-ſtream</hi> to the <hi>Thames,</hi>
+               </l>
+               <l>Sav'd Ephod, Bels, and Breaſt-plate Gems,</l>
+               <l>Now for the future have a care,</l>
+               <l>Dangers eſcap't make men beware;</l>
+               <l>Dark clouds beſat your Firmament,</l>
+               <l>Mens love to you was cold, was ſpent,</l>
+               <l>For ſuch darkneſs brighter ſhew,</l>
+               <l>For ſuch coldneſs hotter grow,</l>
+               <l>And flouriſh for ſuch calumny's,</l>
+               <l>By an <hi>Antiperistaſis;</hi>
+               </l>
+               <l>Your eyes, ye watchmen, they have wink't,</l>
+               <l>Your <hi>Veſtal</hi> fire has been extinct,</l>
+               <l>Scorn all earthly fumes and vapours,</l>
+               <l>And from heaven light your tapers.</l>
+            </lg>
+            <lg>
+               <l>Now ſeeing what offends our ſenſe</l>
+               <l>May pleaſe us in another tenſe;</l>
+               <l>Since 'tis a curious ſight to look,</l>
+               <l>From th' mountains where w' have footing took</l>
+               <l>Down on the watry moving ones,</l>
+               <l>And lately conſcious to our groans;</l>
+               <pb n="15" facs="tcp:120091:9"/>
+               <l>Since Land-ſcapp's may delight the eyes</l>
+               <l>Though repreſenting gloomy skyes;</l>
+               <l>How willingly could I be bold</l>
+               <l>My King eclipſed to behold?</l>
+               <l>How could I be this Prince's Page!</l>
+               <l>To trace him in his pilgrimage;</l>
+               <l>To follow him through his diſtreſs,</l>
+               <l>Through his <hi>Paran</hi>-wilderneſs;</l>
+               <l>And at every miles end ſtop,</l>
+               <l>While grief a Chryſtal bead may drop;</l>
+            </lg>
+            <lg>
+               <l>Come <hi>Berti-us,</hi> (and yet methinks</l>
+               <l>Why ſhould I view it through the Chinks?</l>
+               <l>The Diamond now it ſelf explay's,</l>
+               <l>And in the ring begins to blaze;</l>
+               <l>Why ſhould I th' flying Meteor haunt?</l>
+               <l>Hee's ſince a Star, and culminant;</l>
+               <l>But I muſt go, I can't forbear,</l>
+               <l>Fancy tranſports me through the air,</l>
+               <l>Where I may ſee each Cittadel</l>
+               <l>Each town, each court where <hi>CHARLES</hi> did dwell;</l>
+               <l>I muſt be one if him it pleaſe,</l>
+               <l>Of wandring <hi>Jov's</hi> Satellites;)</l>
+               <l>Come, man of Geographicks, come,</l>
+               <l>Shew mee's Itinerarium;</l>
+               <l>Shew me the places where h'as been,</l>
+               <l>Or rather where he has not been ſeen,</l>
+               <pb n="16" facs="tcp:120091:10"/>
+               <l>Still toſt and turn'd, ſtill on the wing,</l>
+               <l>His type <hi>Aeneas</hi> anſwering:</l>
+            </lg>
+            <lg>
+               <l>Firſt S<hi rend="sup">t</hi> 
+                  <hi>Germans</hi> yields him reſt,</l>
+               <l>Had you been there you would have gueſt</l>
+               <l>
+                  <hi>Windſor</hi> had chang'd her <hi>Thames</hi> for Sein,</l>
+               <l>Her houſleſſe Lord to entertain:</l>
+               <l>To <hi>Guernſey</hi> he and <hi>Jerſey</hi> comes</l>
+               <l>Now made their Kings retiring rooms,</l>
+               <l>The Eſquires of the two bigger Iſles,</l>
+               <l>Though not concern'd yet in their broils;</l>
+               <l>But they who on the main did ſeize,</l>
+               <l>Could take th' Appendixes with eaſe;</l>
+               <l>'Twas but that argument to preſſe</l>
+               <l>
+                  <hi>From the greater to the leſſe;</hi>
+               </l>
+               <l>Therefore he into <hi>Holland</hi> ſtruck,</l>
+               <l>The <hi>Orange</hi> muſt defend the Oake;</l>
+               <l>Then into <hi>Scotland</hi> he muſt fly</l>
+               <l>From the Low-lands to the High;</l>
+               <l>But that cold Country could afford</l>
+               <l>Only cold comfort to her Lord;</l>
+               <l>
+                  <hi>MONCK</hi> had not then inſpir'd the Land,</l>
+               <l>Nor placed there his Loyal Band:</l>
+               <l>To <hi>France</hi> he ſails, but muſt not fix,</l>
+               <l>The Lilly's too (ſtrange flowers) had pricks;</l>
+               <l>The <hi>Paris</hi> folk are not ſo bold</l>
+               <l>As <hi>Engliſh</hi> Princes to behold,</l>
+               <pb n="17" facs="tcp:120091:10"/>
+               <l>Afraid of the Great <hi>STEWART's</hi> are,</l>
+               <l>They are the race of <hi>Lancaſter:</hi>
+               </l>
+               <l>To ſtately <hi>Colen</hi> next he goes,</l>
+               <l>To <hi>German</hi> friends from <hi>Gallick</hi> foes;</l>
+               <l>
+                  <hi>Colen</hi> then might juſtly glory,</l>
+               <l>Although her Legend were a ſtory,</l>
+               <l>What e're the riming Frier ſings,</l>
+               <l>When he was there, there were three Kings.</l>
+               <l>And the Pope doth improperly</l>
+               <l>To build his creſt three ſtories high,</l>
+               <l>A Miter would do better there,</l>
+               <l>The triple Crown is <hi>CHARLES's</hi> wear.</l>
+               <l>But <hi>Rheniſh</hi> could not chear his heart,</l>
+               <l>Only <hi>Canary</hi> plaies that part;</l>
+               <l>Only the Generous <hi>Caſtile</hi>
+               </l>
+               <l>When others frown'd lent him a ſmile;</l>
+               <l>Own'd him as much now as before,</l>
+               <l>(<hi>Spaniards</hi> know Gold though in the ore)</l>
+               <l>Held with the Scepter 'gainſt the ſling,</l>
+               <l>And uſ'd <hi>Don CARLO</hi> like a King;</l>
+               <l>As we not many an age agone</l>
+               <l>Reſetled <hi>Pedro</hi> in his Throne;</l>
+               <l>Even Kings by one another live,</l>
+               <l>Courteſies can receive and give:</l>
+               <l>The Golden Fleece did ſwet and toil</l>
+               <l>To bear him to his Native ſoil,</l>
+               <pb n="18" facs="tcp:120091:11"/>
+               <l>But then ſome ill might have come on't,</l>
+               <l>There might have been a <hi>Charles-pont;</hi>
+               </l>
+               <l>Fortune did us that honour doom,</l>
+               <l>We ſhould both call and fetch him home:</l>
+            </lg>
+            <lg>
+               <l>Come then, prepare, prepare for him,</l>
+               <l>Teach <hi>Wichwood</hi> Foreſt how to ſwim,</l>
+               <l>The main with canſaſs periwigg,</l>
+               <l>Navies of <hi>Bucentoro's</hi> rigg;</l>
+               <l>So we ſhall have a ſeemly fleet,</l>
+               <l>A King, a King, a King to meet;</l>
+               <l>
+                  <hi>Tritons</hi> dance, <hi>and Mare-maids</hi> ſing,</l>
+               <l>Out of the ſea ſome <hi>Venus</hi> ſpring,</l>
+               <l>And with <hi>Cupids</hi> trim the boat</l>
+               <l>In which Great <hi>CHARLES</hi> himſelf's afloat;</l>
+               <l>May we no ſtorms, no tempeſts have,</l>
+               <l>No dancing of the air or wave,</l>
+               <l>No <hi>Lapp-land</hi> puffs, no <hi>Finland</hi> weather,</l>
+               <l>Sent by incarnate Furies hither,</l>
+               <l>Rather may milder blaſts prevail,</l>
+               <l>And fill the proudly ſwelling ſail,</l>
+               <l>May the breath of <hi>Hybla's</hi> flowers</l>
+               <l>The odours of <hi>Hymetta's</hi> bowers,</l>
+               <l>
+                  <hi>Molucca's, Araby's</hi> perfume</l>
+               <l>(Which elſe would uſeleſly conſume)</l>
+               <l>Themſelves into one brize compoſe,</l>
+               <l>And center in thoſe linnen cloth's,</l>
+               <pb n="19" facs="tcp:120091:11"/>
+               <l>White peaceful colours, ſigns of love,</l>
+               <l>So they are uſed, ſo they'le prove</l>
+               <l>To him that to the King ſubmits,</l>
+               <l>To th' unrepenting winding-ſheets:</l>
+               <l>Ye now moſt glorious Eaſtern Seas</l>
+               <l>Foam up at once your Amber-greaſe,</l>
+               <l>Your Amber-greaſe in ſtead of Myrrh,</l>
+               <l>A preſent to this Royal Sir;</l>
+               <l>Ye Whales that lord it in the deep,</l>
+               <l>Come and do homage, come and creep</l>
+               <l>To him of whom you hold in fee</l>
+               <l>Your ſovereignty of the ſea;</l>
+               <l>But leave your Whaliſhneſs a while,</l>
+               <l>Calmly make towards a calm Iſle,</l>
+               <l>Gently glide along and ſteady,</l>
+               <l>Your forelorn hope's been here already;</l>
+               <l>Ye Dolphins too may hither pack,</l>
+               <l>All with <hi>Arions</hi> on your back;</l>
+               <l>Only Sword-fiſhes keep away,</l>
+               <l>Come not into our peaceful Bay,</l>
+               <l>Come not you near thoſe happy ſands</l>
+               <l>Whereon our deareſt Sovereign lands,</l>
+               <l>Thoſe ſands which on record will ſtand</l>
+               <l>As much as e're did <hi>Colchos</hi> ſtrand;</l>
+               <l>When as the ages coming on</l>
+               <l>Shall ſtudy how theſe things were done,</l>
+               <pb n="20" facs="tcp:120091:12"/>
+               <l>And wonder at ſo rich a fraught,</l>
+               <l>As we do at the <hi>Argonaut:</hi>
+               </l>
+               <l>Let us enjoy what they'le admire,</l>
+               <l>Let our affections take new fire,</l>
+               <l>Let us and's Majeſty combine,</l>
+               <l>And for this breach the cloſer joyn;</l>
+               <l>Juſt as thoſe bones which broke in twain</l>
+               <l>Grow ſtronger when they'r ſet again:</l>
+               <l>Let's get ſuch skill how to obey</l>
+               <l>As he hath Scepters how to ſway,</l>
+               <l>And till a Prince of <hi>Wales</hi> be born</l>
+               <l>Let <hi>Ich Di-en</hi> of all be worn:</l>
+            </lg>
+            <lg>
+               <l>And when as <hi>Grebner's</hi> Prophecy</l>
+               <l>Shall be a reall Hiſtory,</l>
+               <l>When as the Martyr's Son and Heir</l>
+               <l>Shall ſit in the Confeſſors chair,</l>
+               <l>When he in that rich Chappell ſhines</l>
+               <l>Which coſt us all the <hi>Indian</hi> Mines,</l>
+               <l>When <hi>(Briton's)</hi> your wiſe Delegates</l>
+               <l>(The Third joyn'd with the Second States)</l>
+               <l>With Pearls and Purples him array,</l>
+               <l>Flowers not growing every <hi>May,</hi>
+               </l>
+               <l>When he of whom we were bereft,</l>
+               <l>And had ſmall Expectation left</l>
+               <l>To ſee theſe ſeas by him thus croſs't,</l>
+               <l>But <hi>Hope</hi> had all her Anchors loſt,</l>
+               <pb n="21" facs="tcp:120091:12"/>
+               <l>Whoſe reigning in his Fathers ſtead</l>
+               <l>Is like <hi>returning from the dead;</hi>
+               </l>
+               <l>When he is Crown'd in all your ſights,</l>
+               <l>And takes poſſeſſion of his rights,</l>
+               <l>When this is done, and you look on,</l>
+               <l>Believe a <hi>Reſurrection;</hi>
+               </l>
+               <l>A time when time ſhall be no more,</l>
+               <l>When you muſt look o're your old ſcore;</l>
+               <l>When that wide ſtretching Conſcience</l>
+               <l>Which can with Royal blood diſpence,</l>
+               <l>Which like a frozen ſerpent lies,</l>
+               <l>Heeding nor Kings nor Deity's,</l>
+               <l>At unſeen fires ſhall melt and thaw,</l>
+               <l>And wake, and hiſſe, and ſting and claw;</l>
+               <l>And that Adventurer ſhall be found</l>
+               <l>To have gone on the ſureſt ground,</l>
+               <l>Who for to gain eternal bliſs</l>
+               <l>Gives <hi>God</hi> his due, and <hi>Caeſar</hi> his.</l>
+            </lg>
+            <lg>
+               <l>You alſo who of high things talk</l>
+               <l>While on the Royal Change you walk,</l>
+               <l>
+                  <hi>Aſiatick, African,</hi>
+               </l>
+               <l>
+                  <hi>Romaniſt</hi> or <hi>Muſelman,</hi>
+               </l>
+               <l>Of whatſoever Country, Sect,</l>
+               <l>Faſhion, Trade, or Dialect,</l>
+               <l>Who ſaw where <hi>Caeſar's</hi> Image ſtood,</l>
+               <l>Saw it deface't, ſaw it renew'd,</l>
+               <pb n="22" facs="tcp:120091:13"/>
+               <l>You told of that, go tell of this,</l>
+               <l>That <hi>England</hi> once more <hi>England</hi> is;</l>
+               <l>Poſſeſſed ones are turned civil,</l>
+               <l>A Monck has conjur'd down the Devil;</l>
+               <l>How well would he become the <hi>Burſe</hi>
+               </l>
+               <l>Seated upon a brazen horſe?</l>
+               <l>Amidſt thoſe Kings that rul'd before,</l>
+               <l>Whoſe Succeſſours he doth reſtore;</l>
+               <l>So of Great <hi>Warwick's</hi> mind is he,</l>
+               <l>Rather to make a King than be;</l>
+               <l>He, whom you all can't chuſe but know,</l>
+               <l>He whom you heard of long ago,</l>
+               <l>When on the Seas he got renown,</l>
+               <l>And brought the bluſtring <hi>Hogens</hi> down,</l>
+               <l>And <hi>High</hi> and <hi>Mighty</hi> from 'um won</l>
+               <l>To give it unto <hi>CHARLES</hi> the Son;</l>
+               <l>He, Oh <hi>Egyptians,</hi> wh' undertook</l>
+               <l>To free us from our Mammaluke;</l>
+               <l>He, <hi>Germans</hi> who on us beſtow'd</l>
+               <l>That which your country would have ow'd</l>
+               <l>To Famous <hi>Guſtav's</hi> Sword and Shield,</l>
+               <l>Had he eſcaped <hi>Lutzen</hi> field;</l>
+               <l>He unto whom even your <hi>Grand-Fool</hi>
+               </l>
+               <l>
+                  <hi>Ottomaniſt's,</hi> may go to School,</l>
+               <l>And if hee's wiſe example take</l>
+               <l>His <hi>Janizaries</hi> off to ſhake;</l>
+               <pb n="23" facs="tcp:120091:13"/>
+               <l>Ye <hi>Greeks</hi> whoſe wine we've often drunk</l>
+               <l>In a health to <hi>CHARLES</hi> and <hi>Monck,</hi>
+               </l>
+               <l>Take notice we as well as you</l>
+               <l>Have our <hi>Demetrius Soter</hi> too;</l>
+               <l>
+                  <hi>Armenian, Perſian, Tartar, Mede,</hi>
+               </l>
+               <l>Think with what courage, with what ſpeed</l>
+               <l>From North to South he Victor ran,</l>
+               <l>And you'le remember <hi>Tamerlane;</hi>
+               </l>
+               <l>Your Patron, <hi>Monſier</hi>'s, is a word,</l>
+               <l>Ours has a heart, a hand, a ſword,</l>
+               <l>Your <hi>Dennis</hi> is no man knows vvhere,</l>
+               <l>Our <hi>George</hi> is here, is here I'le ſwear;</l>
+               <l>You <hi>Portugue's</hi> who knew of late</l>
+               <l>What 'tis to have ſuch turns in State,</l>
+               <l>To fetch your Oſtracized Lord</l>
+               <l>Home back again of your own accord,</l>
+               <l>Joyn ſouls with us, while we rehearſe</l>
+               <l>To <hi>CHARLES</hi> a Hymne, to <hi>Monck</hi> a Verſe:</l>
+            </lg>
+            <lg>
+               <l>Long live the Gen'ral, longer He</l>
+               <l>To whom the Gen'ral bow's his knee;</l>
+               <l>Let the King proſper in his reign,</l>
+               <l>Let <hi>CHARLES</hi> proceed a <hi>Charle maigne;</hi>
+               </l>
+               <l>Let him excell <hi>Beau-Cleark</hi> in Art,</l>
+               <l>And be as ſtout as <hi>Lion's-heart;</hi>
+               </l>
+               <l>As Wiſe as <hi>Richmond-Henry,</hi> who</l>
+               <l>Quell'd diſcords, and made one of two:</l>
+               <pb n="24" facs="tcp:120091:14"/>
+               <l>As Pious as young <hi>Edward</hi> was,</l>
+               <l>That Excommunicated Maſs;</l>
+               <l>As Famous as <hi>Elizabeth,</hi>
+               </l>
+               <l>Who out-fume'd Size-Cinq's blaſting breath;</l>
+               <l>As Peacefull as <hi>James,</hi> and as Juſt;</l>
+               <l>Let him be truſted, let him truſt;</l>
+               <l>Let no ſtrange jealouſies ariſe,</l>
+               <l>Clouds unbecoming <hi>Brittiſh</hi> skies!</l>
+               <l>Let Croſſes ſtill be voted down,</l>
+               <l>So as to have none in the Crown;</l>
+               <l>Let him his Fathers ſoul poſſeſſe,</l>
+               <l>In Parts be like him, not Succeſſe;</l>
+               <l>If, if there be a <hi>King of Kings,</hi>
+               </l>
+               <l>That knows all thoughts, all words, all things,</l>
+               <l>An Angell which <hi>his feet doth ſet</hi>
+               </l>
+               <l>
+                  <hi>One on the dry, one on the wet,</hi>
+               </l>
+               <l>Which doth ſalvation command</l>
+               <l>For th' King at Sea, and can on Land;</l>
+               <l>If we don't beat the air in vain,</l>
+               <l>But notice of our Vows is ta'ne;</l>
+               <l>If we can pierce th' <hi>All-hearing ears,</hi>
+               </l>
+               <l>Which ſeemed ſtopt theſe 13 years;</l>
+               <l>If prayers can prevail with Fate,</l>
+               <l>Let him be <hi>CHARLES</hi> but <hi>Fortunate:</hi>
+               </l>
+               <l>I muſt go on, Let him have health,</l>
+               <l>Let him never want for vvealth;</l>
+               <pb n="25" facs="tcp:120091:14"/>
+               <l>And be the man moſt fit to grow</l>
+               <l>His <hi>Saviour's</hi> Vice-roy here below:</l>
+               <l>If a <hi>Fifth Monarch</hi> there muſt be,</l>
+               <l>Let <hi>Englands</hi> Emperour be He.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
